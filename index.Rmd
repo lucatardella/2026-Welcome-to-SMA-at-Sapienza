@@ -1,0 +1,876 @@
+---
+title: "Welcome & tips for students"
+subtitle: "Statistical Methods and Applications"
+author: "M.Sc. - LM-82"
+institute: "Sapienza Università di Roma"
+date: "2025/09/22 <br>h: 8:30 <br>Aula Castellano <br> ground floor - CU002 building"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{css, echo = FALSE}
+.smayellow { color:   #ffc125 }
+.smablue { color:   #63b8ff }
+.smagreen { color:   #a2cd5a }
+.tiny { font-size: 30% }
+```
+
+```{r xaringan-logo, echo=FALSE}
+library(webshot)
+library(xaringanExtra)
+use_panelset()
+use_logo(
+  image_url = "https://raw.githubusercontent.com/lucatardella/sma/main/Uniroma1.svg",
+  width = "177px",
+  height = "53px",
+  position = css_position(bottom = "1em", left = "1em"))
+```
+
+If you are interested in this M.Sc. program feel free to reach [Luca Tardella](https://corsidilaurea.uniroma1.it/en/users/lucatardellauniroma1it) via Zoom during his [regular office hour](https://corsidilaurea.uniroma1.it/en/users/lucatardellauniroma1it#bootstrap-fieldgroup-nav-item-office-hours)
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+???
+
+Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sharingan_triple.svg)
+
+
+
+---
+background-image: url("https://raw.githubusercontent.com/lucatardella/sma/main/world-of-opportunities.jpg")
+background-position: 50% 50%
+class: center, top, inverse
+
+
+# A world of opportunities!
+
+<br>
+
+
+<br>
+
+
+<br>
+
+
+<br>
+
+
+<br>
+
+
+<br>
+
+
+<br>
+
+
+<br>
+
+
+<br>
+
+
+<br>
+
+
+
+.center[Benvenuti!]
+
+
+---
+# SMA - Statistical Methods and Applications
+
+
+> Master of Science - Laurea Magistrale 
+
+> 120 credits - ECTS  
+
+> regular program is completed in 2 academic years - 4 semesters 
+
+> present academic year 2025/2026
+
+
+<br>
+
+### Available curricula (paths):
+
+
+- .smayellow[**Data Analyst**]
+
+- .smablue[**Official Statistics**]
+
+- .smagreen[**Quantitative Economics**]
+
+
+---
+
+# Organizational units: simplified formulas
+
+**Sapienza University** = 12 Faculties =  
+Faculty of Architecture  + 
+... +  
+... + i3s Faculty + 
+... +  
+... +  School/Faculty of Aerospace Engineering
+
+**i3s Faculty**: <br>
+**i3s** is the acronym for the Italian <br>
+{**I**}ngegneria dell'{**I**}nformazione, {**I**}nformatica e {**S**}tatistics
+
+**i3s Faculty** = 4 Departments =  DI + DIET + DIAG + **DSS**= <br>
+Dept. of Computer Science + 
+Dept. of Information Engineering and Telecommunications + Department of Computer, Control and Management Engineering + 
+**Dept. of Statistical Sciences**
+
+**DSS** is the acronym for the Italian <br>
+**D**ipartimento di  **S**cienze **S**tatistiche
+---
+
+# Two fundamental basic golden rules
+
+1. Who and how you are going to contact as reference people:
+
+1. How Sapienza/SMA M.Sc. program/reference people are going to contact you:
+
+
+For general academic issues you ought to contact
+
+.center[<sma-dss@uniroma1.it>] 
+
+From that account you will be answered by 
+
+
+- [`r fontawesome::fa(name = "fas fa-user-graduate")`](https://corsidilaurea.uniroma1.it/en/users/lucatardellauniroma1it) Luca Tardella (professor, Chair of the Master program)
+
+- [`r fontawesome::fa(name = "fas fa-user")`](https://corsidilaurea.uniroma1.it/en/users/georgiageorganopoulouuniroma1it) Georgia Georganopoulou (staff)
+
+.center[**IMPORTANT**] <br>
+To deliver official communication we will **exclusively** use your institutional email address (as soon as you get one)
+
+.center[<lastname.123yourmatricola456@studenti.uniroma1.it>]
+
+---
+# Websites:
+
+- Official Sapienza section devoted to all academic programs (B.Sc + M.Sc.)
+
+###.center[https://corsidilaurea.uniroma1.it/en]
+
+with official info and reference to all Sapienza programmes and all professors' noticeboards. Click on ["Find your teacher"](https://corsidilaurea.uniroma1.it/cerca/docente) to search all the available noticeboards. 
+
+e.g. [https://corsidilaurea.uniroma1.it/en/users/lucatardellauniroma1it](https://corsidilaurea.uniroma1.it/en/users/lucatardellauniroma1it)
+
+<br>
+
+- Our specific/customized/reorganized website 
+
+###.center[http://sma.dss.uniroma1.it]
+
+---
+# Cohorts:
+
+- students who have matriculated and started the **first year** this academic year 2025/2026 should consult the corsidilaurea platform checking that the url contains the ".../2025/..." string
+
+.center[[https://corsidilaurea.uniroma1.it/en/corso/2025/33517/home](https://corsidilaurea.uniroma1.it/en/corso/2024/29939/home)]
+
+
+
+- students who are now at their second year of the program (i.e. have matriculated and started their **first year** in the last academic year 2023/2024) should consult the corsidilaurea platform checking that the url contains the ".../2023/..." string
+
+.center[[https://corsidilaurea.uniroma1.it/en/corso/2024/29939/home](https://corsidilaurea.uniroma1.it/en/corso/2024/29939/home)]
+
+
+---
+# First steps (before starting the semester):
+- Finalize your enrollment
+- Setup your study plan on infostud and submit it for approval
+- Infostud already contains a certain number of constraints and automatic rules. However, not all study plan setups on INFOSTUD are automatically approved. 
+- Make sure that the course/exam you intend to attend/take can fit in an approvable study plan
+- You cannot record exams without an approved study plan
+- Consult the M.Sc. program chair during regular office hour in order to verify possible extra degrees of freedom 
+
+It happens frequently that students are not able to undertake the above list of steps before the semester starts. In that case it is highly recommended to consult the M.Sc. program chair during regular office hour in order to verify in advance your study plan can be approved. 
+
+---
+class: left, top
+
+# Study plan: basics #01
+
+* The study plan contains all the teaching units (courses, laboratories, other educational activities, final exam) which contribute to total 120 credits. There are some degrees of freedom in selecting units. 
+
+* Students have to conclude the enrollment in order to be allowed to submit a proposal for their study plan.
+
+* Once enrolled, students can submit their study plan (*percorso formativo*) through the INFOSTUD system. [.fn[1]]
+
+* The submitted study plan can be accepted or rejected by the the M.Sc. program chair depending on the circumstances. For this reason it is important get your study plan approved before starting to attend classes. 
+
+* Students are allowed to attend classes before the enrollment is completed or before the study plan is approved BUT it is important to verify the suitability for approval of your plan with the M.Sc. program chair during regular office hour. 
+
+.footnote[[1] First you need to select your curriculum/track (DA, OS or QE). Once chosen your favorite curriculum, you have to select all the teaching units. Some of them are mandatory and hence they will be automatically selected.]
+
+---
+class: left, top
+
+# Study plan: basics #02
+
+* You cannot sit exams if your study plan is not approved or does not contain the corresponding teaching unit.
+
+* In order to start understanding your degrees of freedom in tailoring your study plan you can consult the following colored tables and/or draft the study plan on infostud
+
+.center[
+[<img src="https://raw.githubusercontent.com/lucatardella/sma/main/DA-new.png" width="10%"/>](https://bit.ly/SMA-study-plan-DA)  &nbsp; &nbsp; &nbsp; &nbsp;  [<img src="https://raw.githubusercontent.com/lucatardella/sma/main/OS-new.png" width="10%"/>](https://bit.ly/SMA-study-plan-OS)  &nbsp; &nbsp; &nbsp; &nbsp;  [<img src="https://raw.githubusercontent.com/lucatardella/sma/main/QE-new.png" width="10%"/>](https://bit.ly/SMA-study-plan-QE)
+]
+
+* If needed you **can** change the approved study plan. It is warmly recommended **not to change it multiple times** during a semester. 
+
+* You need to setup a study plan with a total of either 120 ECTS or 123 ECTS. In fact, you can also add 3 extra ECTS with your free-choice section. In any case the INFOSTUD system will check all formal constraints.
+
+* AAF are exam units with no grade: only pass/no pass. Some of them are labs, others have a specific title. **AAF1965** and **AAF1809** are generic containers. For more info please consult [sma.dss.uniroma1](http://sma.dss.uniroma1.it/aaf-exam-units)
+
+---
+class: left, top
+
+# Study plan: bureaucracy
+.pull-left[
+
+### reference contact #1:  
+
+* which curriculum: DA/OS/QE?
+* is my plan acceptable?
+* can I change it? when? 
+* how can I change it?
+* extra degrees of freedom?
+]
+
+.pull-right[
+### <sma-dss@uniroma1.it>
+
+SMA, M.Sc. Chair: 
+
+- Luca Tardella 
+<br> in person: Room 37 
+<br> IV floor DSS
+
+]
+
+.pull-left[
+
+### reference contact #2:  
+
+- issue with the INFOSTUD platform in the process of deploying your study plan request in the INFOSTUD system
+
+]
+
+.pull-right[
+
+### <didattica-dss@uniroma1.it>
+
+DSS Student Office: <br> in person: Room 28
+<br> III floor DSS
+
+- Annalisa Cirinnà 
+- Stefania Borghi 
+- student support
+
+]
+
+
+---
+class: top, center
+
+# Study plan: options 
+
+[<img src="https://raw.githubusercontent.com/lucatardella/sma/main/home-made-DA.png" width="27%" align="center"/>](http://sma.dss.uniroma1.it/node/5549) &nbsp;  &nbsp;  &nbsp;  &nbsp; [<img src="https://raw.githubusercontent.com/lucatardella/sma/main/home-made-OS.png" width="27%" align="center"/>](http://sma.dss.uniroma1.it/node/61) &nbsp;  &nbsp;  &nbsp;  &nbsp;  [<img src="https://raw.githubusercontent.com/lucatardella/sma/main/home-made-QE.png" width="27%" align="center"/>](http://sma.dss.uniroma1.it/qe-quantitative-economics/quantitative-economics) 
+
+### &nbsp; &nbsp;  &nbsp;  .smayellow[Data Analyst] &nbsp;    &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; .smagreen[Official Statistics]  &nbsp;  .smablue[Quantitative Economics]
+
+---
+class: top, center
+
+# Study plan: tips
+
+.pull-left[
+### .smablue[QE - Quantitative Economics ]<br> Bernardo Maggi
+]
+.pull-right[
+]
+
+
+### .smagreen[OS - Official Statistics] <br> Roberta Varriale
+
+.pull-left[
+]
+.pull-right[
+### .smayellow[DA - Data Analyst] <br> Cristina Mollica
+]
+
+---
+class: left, top
+# Study plan tips:
+.pull-left[
+### .smablue[QE - Quantitative Economomics ]<br> Bernardo Maggi
+].pull-right[.left[[<img src="https://raw.githubusercontent.com/lucatardella/sma/main/PersonalNoticeboardBernardoMaggi.png" width="70%" align="center"/>](https://corsidilaurea.uniroma1.it/en/users/bernardomaggiuniroma1it)]
+]
+.pull-left[
+### .smagreen[OS - Official Statistics] <br> Roberta Varriale
+]
+.pull-right[.left[[<img src="https://raw.githubusercontent.com/lucatardella/sma/main/PersonalNoticeboardRobertaVarriale.png" width="70%" align="center"/>](https://corsidilaurea.uniroma1.it/en/users/robertavarrialeuniroma1it)]
+]
+.pull-left[
+### .smayellow[DA - Data Analyst] <br> Cristina Mollica
+]
+.pull-right[
+.lrft[[<img src="https://raw.githubusercontent.com/lucatardella/sma/main/PersonalNoticeboardCristinaMollica.png" width="70%" align="center"/>](https://corsidilaurea.uniroma1.it/en/users/cristinamollicauniroma1it)]
+]
+
+
+
+<!-- --- -->
+
+
+<!-- # .center[Study plan] -->
+
+
+<!-- ## Reference people for each curriculum -->
+
+<!-- Each curriculum has its own *guardian angel*: -->
+
+<!-- #### .pull-left[.smayellow[**(DA) Data Analyst**] [<img src="https://raw.githubusercontent.com/lucatardella/sma/main/home-made-DA.png" width="8%" align="right"/>](https://corsidilaurea.uniroma1.it/en/users/cristinamollicauniroma1it)] .pull-right[ .smayellow[mariabrigida.ferraro@uniroma1.it]] -->
+
+
+
+
+<!-- <br> -->
+
+
+<!-- #### .pull-left[.smagreen[**(OS) Official Statistics**] [<img src="https://raw.githubusercontent.com/lucatardella/sma/main/home-made-OS.png" width="8%" align="right"/>](https://corsidilaurea.uniroma1.it/en/users/robertavarrialeuniroma1it)] .pull-right[ .smagreen[roberta.varriale@uniroma1.it]] -->
+
+
+<!-- <br> -->
+
+<!-- #### .pull-left[.smablue[**(QE) Quantitative Economics**] [<img src="https://raw.githubusercontent.com/lucatardella/sma/main/home-made-QE.png" width="8%" align="right"/>](https://corsidilaurea.uniroma1.it/en/users/bernardomaggiuniroma1it)] .pull-right[.smablue[bernardo.maggi@uniroma1.it]] -->
+
+---
+# Study plan & exams
+
+- [`r fontawesome::fa(name = "fas fa-calendar")`](https://corsidilaurea.uniroma1.it/en/corso/2024/29939/programmazione#bootstrap-fieldgroup-nav-item-exam-session-calendar) exam sessions available: 
+    * 3 regular [winter (jan-feb); summer (jun-jul); late summer (sept)]
+    * 2 extra [april; november] available only to special categories;
+    
+- `r fontawesome::fa(name = "fas fa-school-circle-check")` exam schedule on the INFOSTUD  and corsidilaurea;
+    * INFOSTUD screenshot
+    * [link]()
+
+- `r fontawesome::fa(name = "fas fa-calendar-check")` booking on INFOSTUD in advance;
+
+- `r fontawesome::fa(name = "fas fa-building-columns")` student regulations 
+    * Campus level (manifesto degli studi)
+    * Faculty level 
+    * SMA study program level
+
+
+
+---
+background-image: url("https://raw.githubusercontent.com/lucatardella/sma/main/erasmus-all.jpg")
+background-position: 0% 50%
+class: center, bottom, inverse
+
+---
+# Erasmus+ opportunities
+
+- Erasmus+ Call for studies 
+    * last call 2025-2026 (expired) 
+    * next call *2026-2027* (forthcoming)
+
+.pull-left[
+### academic key role:  RAM 
+
+#### Responsabile Accademico Mobilità 
+
+at SMA M.Sc. program level 
+`r fontawesome::fa(name = "fas fa-user-graduate")` Bernardo Maggi 
+
+]
+
+.pull-right[
+### administrative  key role:  RAEF
+
+#### Referente Amministrativo Erasmus di Facoltà - RAEF
+
+at i3S Faculty level 
+
+`r fontawesome::fa(name = "fas fa-user")` Dott.ssa Daniela De Angelis
+Edificio CU002 - ground floor
+Piazzale Aldo Moro, 5 - 00185 Roma
+Tel: (+39) 06 49690366
+erasmus-i3s@uniroma1.it
+Office hours:  Monday, Wednesday 11.00 am - 2.00 pm
+
+]
+
+
+
+---
+# Double degrees
+
+
+.panelset[
+.panel[.panel-name[Overview]
+.pull-left[
+
+#### rules   
+#### financial support
+#### deadlines  
+#### contacts 
+#### testimonials  
+
+Details here: [sma.dss.uniroma1.it/double-degrees](http://sma.dss.uniroma1.it/double-degrees) 
+]
+.pull-right[
+#### [`r fontawesome::fa(name = "fas fa-building-columns")`](http://sma.dss.uniroma1.it/double-degrees)
+
+####  [`r fontawesome::fa(name = "fas fa-euro-sign")`](https://www.uniroma1.it/en/pagina/erasmus-programme)     
+
+#### [`r fontawesome::fa(name = "fas fa-calendar")`](https://www.uniroma1.it/en/pagina/erasmus-traineeships)
+
+#### [`r fontawesome::fa(name = "fas fa-address-card")`](https://www.uniroma1.it/en/pagina/double-multiple-and-joint-degrees)
+
+#### [`r fontawesome::fa(name = "fas fa-people-group")`](https://web.uniroma1.it/i3s/en/sedi-erasmus)
+]
+]<!-- end of first panel -->
+.panel[.panel-name[Dauphine - DA]
+
+
+
+
+Double degree: M2 - Master mention Mathématiques et Applications, parcour MASH
+
+- M2 - MASH: Mathématiques, Apprentissage, Sciences et Humanités (Mathematics, Machine Learning, Sciences and Humanities)
+
+- Program Managers: Christian ROBERT / Robin RYDER
+
+.center[[<img src="https://raw.githubusercontent.com/lucatardella/sma/main/Dauphine-MASH-1.png" width="15%"/>](https://dauphine.psl.eu/en/training/masters-degrees/mathematics-and-applied-mathematics/masters-year-2-mathematics-deep-learning-and-humanities)  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [<img src="https://raw.githubusercontent.com/lucatardella/sma/main/Dauphine-MASH-3.png" width="30%"/>](https://dauphine.psl.eu/en/training/masters-degrees/mathematics-and-applied-mathematics/masters-year-2-mathematics-deep-learning-and-humanities) ]
+
+]<!-- end of second panel -->
+.panel[.panel-name[ENSAI - DA]
+
+Double degree: M2 - Master for Smart Data Science
+
+- entirely taught in English [(overview)](https://ensai.fr/wp-content/uploads/2022/03/2022-23-Master-for-Smart-Data-Science-Course_Descriptions.pdf) [(details)](https://ensai.fr/wp-content/uploads/2022/08/2022-2023-Smart-Data-Science-Course-Catalog.pdf) 
+
+
+
+- program manager: François PORTIER (Head of the Master program)
+
+.center[[<img src="https://raw.githubusercontent.com/lucatardella/sma/main/ENSAI-smart-data-master.png" width="25%"/>](https://ensai.fr/en/2-cursus/msc-statistics-for-smart-data/)
+]
+
+]<!-- end of third panel -->
+.panel[.panel-name[ENSAI - OS]
+
+Double degree:  M2 -  Data Science for Public Decision Making
+
+- curr: Methodology of Public Statistics - EMOS 
+
+- Program Managers:     Brigitte GELEIN (Head of the Master program) 
+
+.center[[<img src="https://raw.githubusercontent.com/lucatardella/sma/main/EMOS-logo.jpg" width="15%"/>](https://ensai.fr/stages-statistique-publique/) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  [<img src="https://raw.githubusercontent.com/lucatardella/sma/main/Logo_ENSAI_2014.svg" width="20%"/>](https://ensai.fr/stages-statistique-publique/) &nbsp; &nbsp; &nbsp; &nbsp;  [<img src="https://raw.githubusercontent.com/lucatardella/sma/main/EMOS-logo.jpg" width="15%"/>](https://ensai.fr/stages-statistique-publique/)
+
+[<img src="https://raw.githubusercontent.com/lucatardella/sma/main/ENSAI-Data-Science-for-Public-Decision-Making.png" width="25%"/>](https://ensai.fr/en/2-cursus/master-evaluation-et-decision-publiques/)
+]
+]<!-- end of fourth panel -->
+]
+
+---
+background-image: url("https://img.freepik.com/free-vector/kids-wearing-colorful-costumes-different-superheroes-retro-set-isolated_1284-15219.jpg?w=2000&t=st=1669371775~exp=1669372375~hmac=385bb81b1d3aa9a477ace36947e55a4c90b83e58c6bae3f88766f8943f852126")
+background-position: 50% 50%
+class: contain, left, top, inverse
+### Superpower opportunities:
+
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+
+.tiny[<a href="https://www.freepik.com/free-vector/kids-wearing-colorful-costumes-different-superheroes-retro-set-isolated_4016511.htm#query=super%20hero&position=1&from_view=keyword">Image by macrovector</a> on Freepik]
+
+
+
+
+---
+name: brutti
+class: left, top
+
+# Student honors:
+
+.pull-left[
+
+## coordinator:  
+
+* what
+* who
+* why
+* how to apply & deadlines<br>
+Fr, 2026/01/22 (last call, currently open!)<br>
+[[Sap_link](https://web.uniroma1.it/trasparenza/dettaglio_bando_albo/240873)]
+[[pdf_link](https://web.uniroma1.it/trasparenza/sites/default/files/BANDO%20ECCELLENZA%20%28INGLESE%29.pdf)]
+* rules
+* which type of extra work?
+* each student honor with personal tutor
+
+]
+
+.pull-right[
+
+## prof. Pierpaolo Brutti
+
+[<img src="https://raw.githubusercontent.com/lucatardella/sma/main/PersonalNoticeboardPierpaoloBrutti.png" width="70%" align="center"/>]()
+]
+
+
+---
+background-image: url("https://raw.githubusercontent.com/lucatardella/sma/main/cloud-storage-background-remixed-from-public-domain-by-nasa2.jpg")
+background-position: 50% 50%
+class: contain, left, top, inverse
+
+### Computational opportunities:
+
+
+<br>
+
+.left[[<img src="https://raw.githubusercontent.com/lucatardella/sma/main/Terastat2-DSS.png" width="40%"/>](https://www.dss.uniroma1.it/en/node/8271)]
+
+<br>
+
+<br>
+
+<br>
+
+
+<br>
+
+<br>
+
+
+<br>
+
+
+
+.right[.tiny[<a href="https://www.freepik.com/free-photo/cloud-storage-background-remixed-from-public-domain-by-nasa_15606925.htm#query=supercomputer&position=0&from_view=keyword">Image by rawpixel.com</a> on Freepik]]
+
+---
+background-image: url("https://raw.githubusercontent.com/lucatardella/sma/main/internship_image.jpg")
+background-position: 50% 50%, 0% 100%
+background-size: 46%, 46%
+class: bottom, left, inverse
+
+
+
+### Internship opportunities:
+
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+
+<br>
+
+<br>
+
+<br>
+
+
+<br>
+
+
+
+<br>
+
+.right[
+.tiny[<a href="https://www.freepik.com/free-vector/internship-training-infographic_10806605.htm#page=3&query=internship&position=18&from_view=search&track=sph">Image by pikisuperstar</a> on Freepik]
+]
+
+<br>
+
+
+
+---
+```{r public engagement, echo=FALSE}
+xaringanExtra::use_tachyons()
+```
+# Internships & Public Engagement
+
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+
+
+Public engagement entails the many approaches adopted by higher education institutions, their staff and students while connecting with the public. Such connections are a two-way process and lead to the sharing of knowledge, expertise and skills. Public engagement is mutually beneficial, building trust, understanding and further collaboration, and increasing the relevance and impact of higher education on civil society. 
+
+.tr[
+— OECD (2019)
+  ]]
+
+.tiny[OECD (2019), Benchmarking Higher Education System Performance, Higher Education, OECD Publishing, Paris, https://doi.org/10.1787/be5514d7-en. ]
+
+
+---
+class: left, top
+
+# Internships:
+.pull-left[
+#### General info & useful links:
++ Academics, Higher Education & Stakeholders 
++ General info
+    * [Sap_link1](https://www.uniroma1.it/en/pagina/internships)
++ Professional Opportunities
+    * Meeting with Stakeholders
++ Traineeships Abroad 
+    * All opportunities in Sapienza [Sap_link1](https://www.uniroma1.it/en/pagina/traineeships-abroad)
+    * Erasmus+ Traineeships [Sap_link2 ](https://www.uniroma1.it/en/pagina/erasmus-traineeships)
+]
+.pull-right[
+#### Box #10 - Professional Opportunities
+[<img src="https://raw.githubusercontent.com/lucatardella/sma/main/CourseCatalogue13Boxes.png" width="20%" align="center"/> ](https://corsidilaurea.uniroma1.it/en/corso/2024/29939/home)
+
+bottom-right :: the next-to-last row :: gray  box!
+]
+
+---
+class: left, top
+# Internships: contacts
+.pull-left[
+### reference person #1:  
+* <donatella.firmani@uniroma1.it>
+     + networking and periodic meeting with stakeholders: companies, research institutes, organizations
+]
+.pull-right[
+### Donatella Firmani: 
+[<img src="https://raw.githubusercontent.com/lucatardella/sma/main/PersonalNoticeboardDonatellaFirmani.png" width="70%" align="center"/>](https://corsidilaurea.uniroma1.it/en/users/donatellafirmaniuniroma1it)
+]
+.pull-left[
+### reference person #2:  
+* <agostino.diciaccio@uniroma1.it>
+     + Jobsoul reference for i3S Faculty
+]
+.pull-right[
+### prof. Agostino Di Ciaccio: 
+[<img src="https://raw.githubusercontent.com/lucatardella/sma/main/PersonalNoticeboardAgostinoDiCiaccio.png" width="70%" align="center"/>](https://corsidilaurea.uniroma1.it/en/users/agostinodiciacciouniroma1it)
+]
+
+
+---
+```{r conflicting goals, echo=FALSE}
+xaringanExtra::use_tachyons()
+```
+# Internships & conflicting goals
+
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+
+We encourage internships for the reasonable amount of time necessary to complete an experience that will allow you to enter the workforce upon completion of your M.Sc. program. If the internship becomes more engaging and puts study objectives in the background this can be an issue since the expected duration of the study program remains 2 years ...
+
+]
+--
+
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+
+.right[... unless you decide to enrol as a [part-time student](https://www.uniroma1.it/en/pagina/part-time)]
+
+]
+
+---
+background-image: url("https://raw.githubusercontent.com/lucatardella/sma/main/CourseCatalogue13Boxes-circled.jpg")
+background-position: cover
+
+
+
+---
+class: left, top
+
+# Thesis:   &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  <img src="https://raw.githubusercontent.com/lucatardella/sma/main/Greek_Roman_Laurel_wreath_with_branches_vector.svg" width="13%" align="center"/>
+.pull-left[
+## coordinator:  
+* how to apply & deadlines
+* rules
+* thesis during your internship?
+* thesis abroad?
+* final grade
+]
+
+.pull-right[
+## prof. Cristina Mollica
+
+[<img src="https://raw.githubusercontent.com/lucatardella/sma/main/PersonalNoticeboardCristinaMollica.png" width="70%" align="center"/>](https://corsidilaurea.uniroma1.it/en/users/cristinamollicauniroma1it)
+]
+.pull-left[
+#### useful links:
+]
+.pull-right[
+#### Box #13 - Graduation
+[<img src="https://raw.githubusercontent.com/lucatardella/sma/main/CourseCatalogue13Boxes.png" width="20%" align="center"/> ](https://corsidilaurea.uniroma1.it/en/corso/2024/29939/home)
+
+the last blue box!  :: bottom-right
+]
+
+---
+# Student representatives:
+
+Article 6 of the Sapienza Statute calls for a Student Ombudsperson, both at the university and faculty levels, who has the authority and duty to present issues and limitation of student rights, even upon student requests.
+
+- General info on student rights <br> [[Sap_link](https://www.uniroma1.it/en/pagina/student-rights)]
+    + 36 student representatives at (i3S) Faculty level <br> [[Fac_link](https://i3s.web.uniroma1.it/en/faculty-student-representatives)]  <br> [contacts: rappstud-i3s@uniroma1.it]
+    + 2 student representatives at (DSS) Department level: Michele Calzoni e Alice Gabrieli <br> 
+    + 1 students representative at (SMA) M.Sc level <br> 
+    Pierluigi Papa <br> 
+    last elections: april 2025 <br> 
+    next elections (?):  (sugg: more candidates with at least one of the last cohort of matriculated)
+
+
+---
+# Tutoring 
+
+Moodle Page: <https://elearning.uniroma1.it/course/view.php?id=17166>
+#### Phd candidates: 
+
+- Lorenzo Facciaroni <lorenzo.facciaroni@uniroma1.it>
+
+#### 2nd-year M.Sc. student: 
+-  <br> 
+
+#### professors: 
+
+Please, keep in mind that all professors are available at scheduled weekly time and/or by appointment:
+
+- Template www pointer: [https://corsidilaurea.uniroma1.it/en/users/firsnamelastnameuniroma1it](https://corsidilaurea.uniroma1.it/en/users/lucatardellauniroma1it) [click on Office Hour]
+
+---
+# Tutoring 
+
+- you can ask to answer questions about specific topics related to the main courses of the first year, even about pre-requsites 
+- you can ask to review some specific topic
+- you can ask to make **extra** exercises and labs (not the solutions to your homework)
+- you can report topics which you are finding hard to learn during the semester
+- you can ask for tips for preparting your exams/projects/
+
+---
+# List of courses of the first year first semester:
+
+- Introduction to Computer Programming (!) (Python) (3 ECTS) [prof. Franciosa](https://corsidilaurea.uniroma1.it/en/users/paolofranciosauniroma1it)
+- Statistical Reasoning (!) (was Probability and Statistics) (9 ECTS) [prof. Rocci](https://corsidilaurea.uniroma1.it/en/users/robertorocciuniroma1it)
+- Stochastic Processes (9 ECTS) [prof. Cammarota](https://corsidilaurea.uniroma1.it/en/users/valentinacammarotauniroma1it)
+- Laboratory of Stochastic Processes (3 ECTS) [prof. Cammarota](https://corsidilaurea.uniroma1.it/en/users/valentinacammarotauniroma1it)
+- Bayesian Modelling (6 ECTS, 9 ECTS) [prof. Mollica](https://corsidilaurea.uniroma1.it/en/users/cristinamollicauniroma1it) + [prof. Tardella](https://corsidilaurea.uniroma1.it/en/users/lucatardellauniroma1it)
+- Advances in Data Analysis and Statistical Modelling (9 ECTS) [prof. Vichi](https://corsidilaurea.uniroma1.it/en/users/mauriziovichiuniroma1it)
+- Computational Statistics (6 ECTS, 9 ECTS) [prof. Maria Brigida Ferraro](https://corsidilaurea.uniroma1.it/en/users/mariabrigidaferrarouniroma1it)
+
+(!)  This teaching units **will not be approved** in the study plan of students who have completed a B.Sc. program in the Department od Statistical Sciences at Sapienza [Statistica Gestionale; Statistica Economia e Società; Statistica, Economia, Finanza e Assicurazioni]
+
+
+
+---
+# Final announcements:
+
+.bg-yellow.b--gold.ba.bw2.br3.shadow-5.ph4.mt5[
+We will schedule meetings for the Double Degree. Representatives of the ENSAI and Dauphine will take part to the meeting in person (January 2025?). Online attendance will be also possible. 
+]
+
+.bg-yellow.b--gold.ba.bw2.br3.shadow-5.ph4.mt5[
+DSS is organizing a meeting where LM-82 students can meet representatives of companies, institutions and research organizations in order to learn opportunities for internships and/or thesis projects. The meeting will be likely scheduled in February-March.
+]
+
+
+
+---
+```{r xaringan-tachyons, echo=FALSE}
+xaringanExtra::use_tachyons()
+```
+# Final recommendations:
+
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+
+Students are warmly encouraged to regularly attend classes and sit exams so that their M.Sc. carrier can be concluded within the expected time frame of 4 semesters i.e. 2 academic years.
+
+The expected amount of credits for 2 semesters is 60. A minimal amount of credits of 57 ECTS at the end of the first 2 semesters is a necessary requirement to be eligible for the Student Honor Program. 
+
+A minimal amount of credits of 40 ECTS is a necessary requirement to be eligible for internships. 
+
+Accessing the final graduation session within the first two academic years will be awarded with an extra point in the starting base grade. 
+.tr[
+— The Chair
+  ]]
+
+---
+background-image: url(https://raw.githubusercontent.com/lucatardella/sma/main/question-mark-clip-art-no-knowledge-cliparts.png)
+background-size: contain
+class: right
+
+<p>
+&nbsp; 
+<p>
+&nbsp; 
+<p>
+&nbsp; 
+<p>
+&nbsp; 
+<p>
+&nbsp; 
+<p>
+&nbsp; 
+<p>
+&nbsp; 
+<p>
+&nbsp; 
+
+
+
+
+<!-- ## Time for your questions -->
+
+## Your questions?
+
+If you have not found the info you needed 
+
+please, [submit your question](https://forms.gle/Lv1qCa5R7gj3y21w7)
+
+and 
+
+we will be happy to answer!
+
+
+---
+class: inverse, middle, center
+
+background-image: url(https://raw.githubusercontent.com/lucatardella/sma/main/Uniroma1.svg)
