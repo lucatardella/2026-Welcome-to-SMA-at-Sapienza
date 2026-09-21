@@ -3,7 +3,7 @@ title: "Welcome & tips for students"
 subtitle: "Statistical Methods and Applications"
 author: "M.Sc. - LM-82"
 institute: "Sapienza Università di Roma"
-date: "2025/09/22 <br>h: 8:30 <br>Aula Castellano <br> ground floor - CU002 building"
+date: "2026/09/22 <br>h: 9:00 <br>Aula 1 - Gini <br> ground floor - CU002 building"
 output:
   xaringan::moon_reader:
     lib_dir: libs
