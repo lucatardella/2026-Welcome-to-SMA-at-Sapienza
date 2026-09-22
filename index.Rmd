@@ -3,7 +3,6 @@ title: "Welcome & tips for students"
 subtitle: "Statistical Methods and Applications"
 author: "M.Sc. - LM-82"
 institute: "Sapienza Università di Roma"
-date: "2026/09/22 <br>h: 9:00 <br>Aula 1 - Gini <br> ground floor - CU002 building"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -31,7 +30,7 @@ use_logo(
   position = css_position(bottom = "1em", left = "1em"))
 ```
 
-If you are interested in this M.Sc. program feel free to reach [Luca Tardella](https://corsidilaurea.uniroma1.it/en/users/lucatardellauniroma1it) via Zoom during his [regular office hour](https://corsidilaurea.uniroma1.it/en/users/lucatardellauniroma1it#bootstrap-fieldgroup-nav-item-office-hours)
+If you are interested in this M.Sc. program feel free to reach [Luca Tardella](https://corsidilaurea.uniroma1.it/en/lecturer/f78e65ee0942edd9eecca37d6e90c402f20fe40f876ee5cb178105db) via Zoom during his [regular office hour](https://corsidilaurea.uniroma1.it/en/lecturer/f78e65ee0942edd9eecca37d6e90c402f20fe40f876ee5cb178105db#bootstrap-fieldgroup-nav-item-office-hours)
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
 ```
@@ -79,9 +78,8 @@ class: center, top, inverse
 
 <br>
 
+.center[Welcome! - Bienvenue! - Benvenuti!]
 
-
-.center[Benvenuti!]
 
 
 ---
@@ -94,12 +92,12 @@ class: center, top, inverse
 
 > regular program is completed in 2 academic years - 4 semesters 
 
-> present academic year 2025/2026
+> present academic year 2026/2027
 
 
 <br>
 
-### Available curricula (paths):
+### Available curricula (tracks/paths):
 
 
 - .smayellow[**Data Analyst**]
@@ -140,14 +138,14 @@ Dept. of Information Engineering and Telecommunications + Department of Computer
 1. How Sapienza/SMA M.Sc. program/reference people are going to contact you:
 
 
-For general academic issues you ought to contact
+For general academic issues on this Master program you ought to contact
 
 .center[<sma-dss@uniroma1.it>] 
 
 From that account you will be answered by 
 
 
-- [`r fontawesome::fa(name = "fas fa-user-graduate")`](https://corsidilaurea.uniroma1.it/en/users/lucatardellauniroma1it) Luca Tardella (professor, Chair of the Master program)
+- [`r fontawesome::fa(name = "fas fa-user-graduate")`](https://corsidilaurea.uniroma1.it/en/lecturer/f78e65ee0942edd9eecca37d6e90c402f20fe40f876ee5cb178105db) Luca Tardella (professor, Chair of the Master program)
 
 - [`r fontawesome::fa(name = "fas fa-user")`](https://corsidilaurea.uniroma1.it/en/users/georgiageorganopoulouuniroma1it) Georgia Georganopoulou (staff)
 
@@ -165,7 +163,7 @@ To deliver official communication we will **exclusively** use your institutional
 
 with official info and reference to all Sapienza programmes and all professors' noticeboards. Click on ["Find your teacher"](https://corsidilaurea.uniroma1.it/cerca/docente) to search all the available noticeboards. 
 
-e.g. [https://corsidilaurea.uniroma1.it/en/users/lucatardellauniroma1it](https://corsidilaurea.uniroma1.it/en/users/lucatardellauniroma1it)
+e.g. [https://corsidilaurea.uniroma1.it/en/users/lucatardellauniroma1it](https://corsidilaurea.uniroma1.it/en/lecturer/f78e65ee0942edd9eecca37d6e90c402f20fe40f876ee5cb178105db/) [`r fontawesome::fa(name = "fas fa-user-graduate")`](https://corsidilaurea.uniroma1.it/en/lecturer/f78e65ee0942edd9eecca37d6e90c402f20fe40f876ee5cb178105db)
 
 <br>
 
@@ -176,15 +174,15 @@ e.g. [https://corsidilaurea.uniroma1.it/en/users/lucatardellauniroma1it](https:/
 ---
 # Cohorts:
 
-- students who have matriculated and started the **first year** this academic year 2025/2026 should consult the corsidilaurea platform checking that the url contains the ".../2025/..." string
+- students who have matriculated and started the **first year** this academic year 2026/2027 should consult the corsidilaurea platform making it sure that the appropriate matriculation academic year is selected
 
-.center[[https://corsidilaurea.uniroma1.it/en/corso/2025/33517/home](https://corsidilaurea.uniroma1.it/en/corso/2024/29939/home)]
+.center[[https://corsidilaurea.uniroma1.it/en/course/33517/study-plan](https://corsidilaurea.uniroma1.it/en/course/33517/study-plan)]
 
 
 
-- students who are now at their second year of the program (i.e. have matriculated and started their **first year** in the last academic year 2023/2024) should consult the corsidilaurea platform checking that the url contains the ".../2023/..." string
+- students who are now at their second year of the program (i.e. have matriculated and started their **first year** in the last academic year 2025/2026) should consult the corsidilaurea platform making it sure that the appropriate matriculation academic year is selected
 
-.center[[https://corsidilaurea.uniroma1.it/en/corso/2024/29939/home](https://corsidilaurea.uniroma1.it/en/corso/2024/29939/home)]
+.center[[https://corsidilaurea.uniroma1.it/en/course/33517/study-plan](https://corsidilaurea.uniroma1.it/en/course/33517/study-plan)]
 
 
 ---
@@ -287,7 +285,7 @@ class: top, center
 
 # Study plan: options 
 
-[<img src="https://raw.githubusercontent.com/lucatardella/sma/main/home-made-DA.png" width="27%" align="center"/>](http://sma.dss.uniroma1.it/node/5549) &nbsp;  &nbsp;  &nbsp;  &nbsp; [<img src="https://raw.githubusercontent.com/lucatardella/sma/main/home-made-OS.png" width="27%" align="center"/>](http://sma.dss.uniroma1.it/node/61) &nbsp;  &nbsp;  &nbsp;  &nbsp;  [<img src="https://raw.githubusercontent.com/lucatardella/sma/main/home-made-QE.png" width="27%" align="center"/>](http://sma.dss.uniroma1.it/qe-quantitative-economics/quantitative-economics) 
+[<img src="https://raw.githubusercontent.com/lucatardella/sma/main/home-made-DA.png" width="27%" align="center"/>](http://sma.dss.uniroma1.it/node/5549) &nbsp;  &nbsp;  &nbsp;  &nbsp; [<img src="https://raw.githubusercontent.com/lucatardella/sma/main/home-made-OS.png" width="27%" align="center"/>](http://sma.dss.uniroma1.it/os-official-statistics/official-statistics) &nbsp;  &nbsp;  &nbsp;  &nbsp;  [<img src="https://raw.githubusercontent.com/lucatardella/sma/main/home-made-QE.png" width="27%" align="center"/>](http://sma.dss.uniroma1.it/qe-quantitative-economics/quantitative-economics) 
 
 ### &nbsp; &nbsp;  &nbsp;  .smayellow[Data Analyst] &nbsp;    &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; .smagreen[Official Statistics]  &nbsp;  .smablue[Quantitative Economics]
 
@@ -316,7 +314,7 @@ class: left, top
 # Study plan tips:
 .pull-left[
 ### .smablue[QE - Quantitative Economomics ]<br> Bernardo Maggi
-].pull-right[.left[[<img src="https://raw.githubusercontent.com/lucatardella/sma/main/PersonalNoticeboardBernardoMaggi.png" width="70%" align="center"/>](https://corsidilaurea.uniroma1.it/en/users/bernardomaggiuniroma1it)]
+].pull-right[.left[[<img src="https://raw.githubusercontent.com/lucatardella/sma/main/PersonalNoticeboardBernardoMaggi.png" width="70%" align="center"/>](https://corsidilaurea.uniroma1.it/it/lecturer/09ad21de38199739b33dbc9909edab5e9400fa5347c3c3793de86a90)]
 ]
 .pull-left[
 ### .smagreen[OS - Official Statistics] <br> Roberta Varriale
@@ -386,8 +384,8 @@ class: center, bottom, inverse
 # Erasmus+ opportunities
 
 - Erasmus+ Call for studies 
-    * last call 2025-2026 (expired) 
-    * next call *2026-2027* (forthcoming)
+    * last call 2026-2027 (expired) 
+    * next call *2027-2027* (forthcoming)
 
 .pull-left[
 ### academic key role:  RAM 
@@ -537,7 +535,7 @@ class: left, top
 * who
 * why
 * how to apply & deadlines<br>
-Fr, 2026/01/22 (last call, currently open!)<br>
+Fr, 2027/01/22 (last call, currently open!)<br>
 [[Sap_link](https://web.uniroma1.it/trasparenza/dettaglio_bando_albo/240873)]
 [[pdf_link](https://web.uniroma1.it/trasparenza/sites/default/files/BANDO%20ECCELLENZA%20%28INGLESE%29.pdf)]
 * rules
@@ -755,7 +753,7 @@ Article 6 of the Sapienza Statute calls for a Student Ombudsperson, both at the 
     + 2 student representatives at (DSS) Department level: Michele Calzoni e Alice Gabrieli <br> 
     + 1 students representative at (SMA) M.Sc level <br> 
     Pierluigi Papa <br> 
-    last elections: april 2025 <br> 
+    last elections: april 2026 <br> 
     next elections (?):  (sugg: more candidates with at least one of the last cohort of matriculated)
 
 
@@ -804,7 +802,7 @@ Please, keep in mind that all professors are available at scheduled weekly time 
 # Final announcements:
 
 .bg-yellow.b--gold.ba.bw2.br3.shadow-5.ph4.mt5[
-We will schedule meetings for the Double Degree. Representatives of the ENSAI and Dauphine will take part to the meeting in person (January 2025?). Online attendance will be also possible. 
+We will schedule meetings for the Double Degree. Representatives of the ENSAI and Dauphine will take part to the meeting in person (January 2026?). Online attendance will be also possible. 
 ]
 
 .bg-yellow.b--gold.ba.bw2.br3.shadow-5.ph4.mt5[
